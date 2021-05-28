@@ -1,0 +1,14 @@
+{
+    "app_id": "autoscalingcustom-ewthc",
+    "config_version": 20200603,
+    "name": "AutoScalingCustom",
+    "location": "DE-FF",
+    "deployment_model": "LOCAL",
+    "security": {},
+    "custom_user_data_config": {
+        "enabled": false
+    },
+    "sync": {
+        "development_mode_enabled": false
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "id": "602d5320a2da11cc83434de9",
+    "name": "MonitoringProjectId",
+    "value": "<YOUR_CLOUD_PROJECT_ID>",
+    "from_secret": false
+}
