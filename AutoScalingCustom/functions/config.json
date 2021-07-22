@@ -1,0 +1,14 @@
+[
+    {
+        "name": "scaleUp",
+        "private": false
+    },
+    {
+        "name": "modifyCluster",
+        "private": false
+    },
+    {
+        "name": "getClusterMetrics",
+        "private": false
+    }
+]

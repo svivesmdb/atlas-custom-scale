@@ -9,12 +9,9 @@ The code won't work out of the box, you'll need to create a few secrets and valu
 Also you'll need to create a trigger that fires every few minutes the scaleUp function on your target cluster.
 
 
-# Improvements
-
-## Evaluate not only the primary
-Now we are just monitoring one node of the replicaset, the primary that you need to feed in on the scaleUp function. It's for the sake of simplicity. 
-The idea would be to monitor the whole set of nodes of the cluster and decide on what to do i.e. apply some kind of policy (if primaries are really busy as well as secondaries then scale up for example).
-We could list the mongod instances in the cluster via API and then evaluate the state to decide what to do.
+# Potential Improvements
 
 ## Enhance the policies and add more options
-Now we just monitor the last X minutes of the Process kernel CPU. It's a basic metric, should be enhanced to monitor more metrics.
+Now we just monitor the last X minutes of a single metric, we could evaluate more metrics.
+
+Also control if the cluster is scaling up already and track when it was last 
