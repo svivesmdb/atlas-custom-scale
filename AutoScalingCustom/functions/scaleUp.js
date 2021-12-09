@@ -61,7 +61,7 @@ exports = async function() {
     // Set the desired instance size...
     const body =    {
         "providerSettings" : {
-          "instanceSizeName" : paarms.SCALE_UP_TO
+          "instanceSizeName" : params.SCALE_UP_TO
         }
     };
     
